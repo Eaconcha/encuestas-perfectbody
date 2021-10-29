@@ -28,22 +28,17 @@
   <form action="" method="post"></form>
   <div class="flex flex-wrap px-12 py-16 bg-blue-100 rounded-lg shadow-md h-18">
    <h1 class="text-sm text-lg text-3xl font-bold text-center lg:text-center text-black-600 md:text-2xl">PROCESO DE RECOLECCIÓN DE QUEJA</h1>
-   <P class="py-4 text-base">Su opinion es importante para nosotros; para realizar su queja tenga en cuenta los siguientes aspectos:
+   <P class="py-4 mb-8 text-base bg-pink-300">Su opinion es importante para nosotros; para realizar su queja tenga en cuenta los siguientes aspectos:
    
-    <div class="px-4 mb-4 bg-red-300 rounded-lg shadow-md h-18">
+    <div class="px-4 mb-4 text-base bg-red-300 rounded-lg shadow-md h-18">
       
-      <div class="item ">
-        <item class="text-base">Dirijase en tono respetuoso.</item>
-      </div>
-      <div>
-        <item class="text-base">Sea lo mas preciso en la imformación,incluya fecha, hora, funcionarios involucrados(si aplica).</item>
-      </div>
-      <div>
-        <item class="text-base">Aporte pruebas (si las tiene), como fotos, documentos, o cualquier tipo de evidencia que usted considere que pueda respaldar lo descrito.</item>
-      </div>
-      <div>
-        <item class="text-base">La queja puede ser realizada de manera anonima, pero si diligencia los campos de información personal, nos permitiria brindar una respuesta pertinente y oportuna a su solicitud.</item>
-      </div>
+      <ol class="list-decimal">
+        <li> Dirijase en tono respetuoso.</li>
+        <li>Sea lo mas preciso en la información,incluya fecha, hora, funcionarios involucrados(si aplica).</li>
+        <li>Aporte pruebas (si las tiene), como fotos, documentos, o cualquier tipo de evidencia que usted considere que pueda respaldar lo descrito.</li>
+        <li>La queja puede ser realizada de manera anonima, pero si diligencia los campos de información personal, nos permitiria brindar una respuesta pertinente y oportuna a su solicitud.</li>
+      </ol>
+      
     </div>
    </P>
   <!-- <div class="px-4 rounded-lg shadow-md bg-yellow-50 h-18">-->
@@ -54,12 +49,18 @@
   <!--<div class="flex flex-wrap">
    <button class="px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-purple-500 rounded shadow outline-none active:bg-purple-600 hover:shadow-lg focus:outline-none"
    type="button">Adjuntar</button>-->
-   <label
-  class="flex flex-col items-center w-64 px-4 py-6 tracking-wide text-purple-600 uppercase transition-all duration-150 ease-linear bg-white border rounded-md shadow-md cursor-pointer border-blue hover:bg-purple-600 hover:text-white">
+   <div>
+  <label class="flex flex-col items-center w-64 px-2 py-2 tracking-wide text-purple-600 uppercase transition-all duration-150 ease-linear bg-white border rounded-md shadow-md cursor-pointer border-blue hover:bg-purple-600 hover:text-white">
   <i class="fas fa-cloud-upload-alt fa-3x"></i>
   <span class="mt-2 text-base leading-normal">Adjuntar</span>
   <input type='file' class="hidden" />
   </label>
+  <div>
+    <label class="flex flex-col items-center w-64 px-2 py-2 tracking-wide text-purple-600 uppercase transition-all duration-150 ease-linear bg-green-400 border rounded-md shadow-md cursor-pointer border-blue hover:bg-purple-600 hover:text-white">
+    <i class="fas fa-3x"></i>
+    <span class="mt-2 text-base leading-normal">Guardar</span>
+    <input type='button' class="hidden" />
+    </label>
   
    <!---<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
