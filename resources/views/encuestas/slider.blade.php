@@ -55,14 +55,14 @@
           <div class="absolute bg-center opacity-0 carousel-item" style="height:auto; background-image: url(https://mdbootstrap.com/img/new/slides/052.jpg)">
            
             <div class="flex flex-wrap justify-center">
-              <div class="w-8/12 px-4 sm:w-6/12">
+              <div class="px-24 py-8 h-18">
               <img src="../resources/imagenes\Perfect-Body-Santa-Marta.png" alt="" 
               class="">
               </div>
             </div>
             <label class="mb-2 text-xs tracking-wide text-black uppercase" for="plantilla">
               <div class="mx-20 bg-green-300">
-              <p class="py-12 text-center text-justify text-green-100">
+              <p class="py-12 mx-8 text-center text-justify text-green-100">
                   Estimado usuario</br>
                   Para <strong class="color-blue-300">PERFECT BODY MEDICAL CENTER</strong>, sus opiniones y sugerencias son de valiosa
                   importancia para la mejora continua. Permitanos conocer su percepción para la 
@@ -78,7 +78,7 @@
                 <div class="container mt-4 text-center bg-red-900">
                   <span class="text-white ">¿Está usted satisfecho con nuestro servicio?</span>
                   <div class="grid grid-rows-3 mt-2 text-justify text-white">
-                    <div class="grid content-center w-40 grid-rows-3 bg-blue-500 p-auto">
+                    <div class="grid content-center w-40 grid-rows-3 mx-auto bg-blue-500 ">
                       <label type="inline-flex items-center">
                           <input type="radio" class="form-radio" name="accountType" value="5">
                           <span class="ml-2">Muy bueno</span>
@@ -106,10 +106,10 @@
       <!-- ------------------------------------------------------------------------------------------------------ -->
       <!-- ------------------------------------------------------------------------------------------------------ -->
           
-      
-      <div class="container mt-4">
+      <div class="container mt-4 text-center bg-red-900">
         <span class="text-white ">¿Como califica el trato recibido por parte del personal?</span>
-        <div class="grid grid-rows-3 mt-2 text-white">
+        <div class="grid grid-rows-3 mt-2 text-justify text-white">
+          <div class="grid content-center w-40 grid-rows-3 mx-auto bg-blue-500 ">
             <label type="inline-flex items-center">
                 <input type="radio" class="form-radio" name="accountType" value="5">
                 <span class="ml-2">Muy bueno</span>
@@ -130,17 +130,14 @@
               <input type="radio" class="form-radio" name="accountType" value="1">
               <span class="ml-2">Muy malo</span>
             </label>
+          </div>
         </div>
-    </div>
-      
-  </div>
-      
-      
-      
-      
-      
-      
-      
+   
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+ 
       
       <div>
               <label class="block mt-4 " for="">

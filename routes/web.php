@@ -21,10 +21,10 @@ Route::get('/', function () {
     return view('encuestas.queja');
 });
 
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('encuestas.slider');
 });
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('encuestas.preguntas');
     
 });*/
