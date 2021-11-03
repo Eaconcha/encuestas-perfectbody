@@ -76,12 +76,12 @@
 
             
 
-                <div class="container mt-4 text-center bg-red-900">
+                <div class="block mt-4 text-center bg-red-900">
                   <span class="text-lg text-white">¿Está usted satisfecho con nuestro servicio?</span>
-                  <div class="grid grid-rows-3 mt-2 text-justify text-white">
-                    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg bg-blue-500">
+                  <div class="grid mb-2 text-justify text-white grid-rows-2/3">
+                    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg ">
                       <label type="inline-flex items-center">
-                          <input type="radio" class="form-radio" name="accountType" value="5">
+                          <input type="radio" class="form-radio" name="accountType" value="5" checked>
                           <span class="ml-2">Muy bueno</span>
                       </label>
                       <label type="inline-flex items-center">
@@ -107,10 +107,10 @@
       <!-- ------------------------------------------------------------------------------------------------------ -->
       <!-- ------------------------------------------------------------------------------------------------------ -->
           
-      <div class="container mt-4 text-center bg-red-900">
-        <span class="text-white ">¿Como califica el trato recibido por parte del personal?</span>
-        <div class="grid grid-rows-3 mt-2 text-justify text-white">
-          <div class="grid content-center w-40 grid-rows-3 mx-auto bg-blue-500 ">
+      <div class="block mt-4 text-center bg-red-900">
+        <span class="text-lg text-white">¿Como califica el trato recibido por parte del personal?</span>
+        <div class="grid mt-2 text-justify text-white grid-rows-2/3">
+          <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg">
             <label type="inline-flex items-center">
                 <input type="radio" class="form-radio" name="accountType" value="5">
                 <span class="ml-2">Muy bueno</span>
