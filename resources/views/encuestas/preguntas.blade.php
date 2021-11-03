@@ -13,7 +13,7 @@
     
 
     <div class="flex flex-wrap justify-center">
-        <div class="px-16 py-8 rounded-lg shadow-md bg-white-900 h-18">
+        <div class="px-24 py-8 h-18">
             <img src="../resources/imagenes\Perfect-Body-Santa-Marta.png" alt="">
         </div>
     </div>
@@ -32,7 +32,7 @@
           <div class="content-center">
               <strong>Por favor, marque la casilla segun su percepción del servicio recibido:</strong>
           </div>
-          <div class="content-center">
+          <div class="content-center h-16 mx-24">
           <label class="block mt-4 text-left" style="max-width: 300px; " for="">
               <span class="form-gray-700">¿Como califica nuestras instalaciones?</span>
               <select class="block w-full mt-1 form-multiselect multiple" name="" id="">

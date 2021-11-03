@@ -9,9 +9,9 @@
 
     <title>Encuestas perfect body</title>
 </head>
-  <body class="flex bg-local bg-green-100" style="background: bg-black-900">
+  <body class="flex bg-local bg-green-300" style="background: bg-black-900">
     
-  <div class="max-w-6xl px-12 py-20 mx-auto mt-10 mb-24 bg-white bg-gray-100 shadow-xl lg:px-24">
+  <div class="max-w-6xl px-12 py-20 mx-auto mt-10 mb-24 bg-white bg-red-100 shadow-xl lg:px-24">
     
    
     <form>
@@ -21,20 +21,18 @@
               Tipo de documento
             </label>
             <div>
-              <select class="w-full px-4 py-3 pr-8 mb-3 text-xs text-black bg-gray-200 border border-gray-200 rounded" id="tipo-documento">
-                <option class="font-bold text-center" value="0">- - - -  Seleccionar  - - - -</option>  
-                <option class="font-bold text-center" value="1">Tarjeta de identidad</option>
-                <option class="font-bold text-center" value="2">Cedula de ciudadania</option>
-                <option class="font-bold text-center" value="3">Cedula de extranjeria</option>
-                <option class="font-bold text-center" value="4">Pasaporte</option>
+              <select class="w-full px-4 py-3 pr-8 mb-3 text-sm text-black bg-gray-200 border border-gray-200 rounded sm:text-base" id="tipo-documento">
+                <option class="text-xs font-bold text-center sm:text-base" value="0">- - - -  Seleccionar  - - - -</option>  
+                <option class="text-xs font-bold text-center sm:text-base" value="1">Tarjeta de identidad</option>
+                <option class="text-xs font-bold text-center sm:text-base" value="2">Cedula de ciudadania</option>
+                <option class="text-xs font-bold text-center sm:text-base" value="3">Cedula de extranjeria</option>
+                <option class="text-xs font-bold text-center sm:text-base" value="4">Pasaporte</option>
               </select>
             </div>
 <!-- -------------------------------------------------------------------------------------------------------- -->
 <!-- -------------------------------------------------------------------------------------------------------- -->
 <!-- -------------------------------------------------------------------------------------------------------- -->
-            <!--<span class="text-xs italic text-red-500">
-                Elija una opción
-              </span>-->
+           
           </div>
           <div class="px-3 md:w-full">
             <label class="mb-2 text-xs font-bold tracking-wide text-black uppercase" for="identificacion">
@@ -46,7 +44,7 @@
         
         <div class="mt-2 -mx-3 md:flex">
           <div class="px-3 md:w-full">
-            <button class="px-4 py-2 font-bold text-white bg-green-300 border-b-4 border-gray-200 rounded-br-3xl rounded-tl-3xl md:w-full hover:border-b-2 hover:border-gray-100">
+            <button class="px-4 py-2 font-bold text-white bg-blue-300 border-b-4 border-gray-200 rounded-br-3xl rounded-tl-3xl md:w-full hover:border-b-2 hover:border-gray-100" type="submit">
               Siguiente
             </button>
           </div>
