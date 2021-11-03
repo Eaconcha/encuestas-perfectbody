@@ -60,14 +60,15 @@
               class="">
               </div>
             </div>
-            <label class="mb-2 text-xs tracking-wide text-black uppercase" for="plantilla">
-              <div class="mx-20 bg-green-300">
-              <p class="py-12 mx-8 text-center text-justify text-green-100">
+            <label class="mb-2 text-base tracking-wide text-black " for="plantilla">
+              <div class="mx-20 bg-black">
+              <p class="py-12 mx-8 text-center text-justify text-white">
                   Estimado usuario</br>
                   Para <strong class="color-blue-300">PERFECT BODY MEDICAL CENTER</strong>, sus opiniones y sugerencias son de valiosa
                   importancia para la mejora continua. Permitanos conocer su percepción para la 
                   toma de decisiones que nos permita prestarle cada vez, un mejor servicio.
-                  <strong class="text-center text-green-100">Por favor, marque la casilla segun su percepción del servicio recibido:</strong>
+                  <br>
+                  <strong class="text-sm text-center text-green-100 sm:text-base">Por favor, marque la casilla segun su percepción del servicio recibido:</strong>
               </div>
                 </p>
               </label>
@@ -76,9 +77,9 @@
             
 
                 <div class="container mt-4 text-center bg-red-900">
-                  <span class="text-white ">¿Está usted satisfecho con nuestro servicio?</span>
+                  <span class="text-lg text-white">¿Está usted satisfecho con nuestro servicio?</span>
                   <div class="grid grid-rows-3 mt-2 text-justify text-white">
-                    <div class="grid content-center w-40 grid-rows-3 mx-auto bg-blue-500 ">
+                    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg bg-blue-500">
                       <label type="inline-flex items-center">
                           <input type="radio" class="form-radio" name="accountType" value="5">
                           <span class="ml-2">Muy bueno</span>
