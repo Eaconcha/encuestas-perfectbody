@@ -65,7 +65,7 @@
     <div>
         <label class="block mt-4" for="">
             <span class="form-gray-700">¿Como califica la información sobre los procedimientos realizados?</span>
-            <select class="block w-full mt-1 form-select" name="" id="">
+            <select class="block w-full mt-1 form-select" name="pregunta3" id="">
                 <option value="">Muy bueno</option>
                 <option value="">Bueno</option>
                 <option value="">Regular</option>

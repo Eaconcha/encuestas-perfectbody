@@ -58,10 +58,10 @@
               <div class="px-24 py-8 h-18">
               <img src="../resources/imagenes\Perfect-Body-Santa-Marta.png" alt="" 
               class="">
-              </div>
+              </div> 
             </div>
             <label class="mb-2 text-base tracking-wide text-black " for="plantilla">
-              <div class="mx-20 bg-black">
+              <div class="mx-4 bg-black">
               <p class="py-12 mx-8 text-center text-justify text-white">
                   Estimado usuario</br>
                   Para <strong class="color-blue-300">PERFECT BODY MEDICAL CENTER</strong>, sus opiniones y sugerencias son de valiosa
@@ -76,7 +76,7 @@
 
             
 
-                <div class="block mt-4 text-center bg-red-900">
+                <div class="block mx-4 mt-4 text-center bg-red-900">
                   <span class="text-lg text-white">¿Está usted satisfecho con nuestro servicio?</span>
                   <div class="grid mb-2 text-justify text-white grid-rows-2/3">
                     <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg ">
@@ -138,8 +138,168 @@
 <!-- ------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------ -->
 
- 
+<div class="block mt-4 text-center bg-red-900">
+  <span class="text-lg text-white">¿Como califica la información sobre los procedimientos realizados?</span>
+  <div class="grid mt-2 text-justify text-white grid-rows-2/3">
+    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg">
+      <label type="inline-flex items-center">
+          <input type="radio" class="form-radio" name="accountType" value="5">
+          <span class="ml-2">Muy bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="4">
+        <span class="ml-2">Bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="3">
+        <span class="ml-2">Regular</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="2">
+        <span class="ml-2">Malo</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="1">
+        <span class="ml-2">Muy malo</span>
+      </label>
+    </div>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
       
+<div class="block mt-4 text-center bg-red-900">
+  <span class="text-lg text-white">¿Como califica la atención durante el traslado asistencial (Ambulancia)?</span>
+  <div class="grid mt-2 text-justify text-white grid-rows-2/3">
+    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg">
+      <label type="inline-flex items-center">
+          <input type="radio" class="form-radio" name="accountType" value="5">
+          <span class="ml-2">Muy bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="4">
+        <span class="ml-2">Bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="3">
+        <span class="ml-2">Regular</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="2">
+        <span class="ml-2">Malo</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="1">
+        <span class="ml-2">Muy malo</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="0">
+        <span class="ml-2">No aplica</span>
+      </label>
+    </div>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+
+<div class="block mt-4 text-center bg-red-900">
+  <span class="text-lg text-white">¿Como califica la información sobre los procedimientos realizados?</span>
+  <div class="grid mt-2 text-justify text-white grid-rows-2/3">
+    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg">
+      <label type="inline-flex items-center">
+          <input type="radio" class="form-radio" name="accountType" value="5">
+          <span class="ml-2">Muy bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="4">
+        <span class="ml-2">Bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="3">
+        <span class="ml-2">Regular</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="2">
+        <span class="ml-2">Malo</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="1">
+        <span class="ml-2">Muy malo</span>
+      </label>
+    </div>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+
+<div class="block mt-4 text-center bg-red-900">
+  <span class="text-lg text-white">¿Como califica la información sobre los procedimientos realizados?</span>
+  <div class="grid mt-2 text-justify text-white grid-rows-2/3">
+    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg">
+      <label type="inline-flex items-center">
+          <input type="radio" class="form-radio" name="accountType" value="5">
+          <span class="ml-2">Muy bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="4">
+        <span class="ml-2">Bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="3">
+        <span class="ml-2">Regular</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="2">
+        <span class="ml-2">Malo</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="1">
+        <span class="ml-2">Muy malo</span>
+      </label>
+    </div>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+
+<div class="block mt-4 text-center bg-red-900">
+  <span class="text-lg text-white">¿Como califica la información sobre los procedimientos realizados?</span>
+  <div class="grid mt-2 text-justify text-white grid-rows-2/3">
+    <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg">
+      <label type="inline-flex items-center">
+          <input type="radio" class="form-radio" name="accountType" value="5">
+          <span class="ml-2">Muy bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="4">
+        <span class="ml-2">Bueno</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="3">
+        <span class="ml-2">Regular</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="2">
+        <span class="ml-2">Malo</span>
+      </label>
+      <label type="inline-flex items-center">
+        <input type="radio" class="form-radio" name="accountType" value="1">
+        <span class="ml-2">Muy malo</span>
+      </label>
+    </div>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
       <div>
               <label class="block mt-4 " for="">
                   <span class="text-white form-gray-700">¿Como califica el trato recibido por parte del personal?</span>
