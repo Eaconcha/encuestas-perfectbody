@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-
     <title>Sección de preguntas</title>
 </head>
 <body>
@@ -56,7 +55,7 @@
            
             <div class="flex flex-wrap justify-center">
               <div class="px-24 py-8 h-18">
-              <img src="../resources/imagenes\Perfect-Body-Santa-Marta.png" alt="" 
+              <img src="../resources/imagenes/Perfect-Body-Santa-Marta.png" alt="" 
               class="">
               </div> 
             </div>
@@ -81,24 +80,24 @@
                   <div class="grid mb-2 text-justify text-white grid-rows-2/3">
                     <div class="grid content-center w-40 grid-rows-3 mx-auto text-lg ">
                       <label type="inline-flex items-center">
-                          <input type="radio" class="form-radio" name="accountType" value="5" checked>
-                          <span class="ml-2">Muy bueno</span>
+                          <input type="radio" class="form-radio" name="accountType1" id="pregunta_n1" value="5">
+                          <span class="ml-2" for="pregunta_n1">Muy bueno</span>
                       </label>
                       <label type="inline-flex items-center">
-                        <input type="radio" class="form-radio" name="accountType" value="4">
-                        <span class="ml-2">Bueno</span>
+                        <input type="radio" class="form-radio" name="accountType2" id="pregunta_n2" value="4">
+                        <span class="ml-2" for="pregunta_n2">Bueno</span>
                       </label>
                       <label type="inline-flex items-center">
-                        <input type="radio" class="form-radio" name="accountType" value="3">
-                        <span class="ml-2">Regular</span>
+                        <input type="radio" class="form-radio" name="accountType3" id="pregunta_n3"value="3">
+                        <span class="ml-2" for="pregunta_n3">Regular</span>
                       </label>
                       <label type="inline-flex items-center">
-                        <input type="radio" class="form-radio" name="accountType" value="2">
-                        <span class="ml-2">Malo</span>
+                        <input type="radio" class="form-radio" name="accountType4" id="pregunta_n4" value="2">
+                        <span class="ml-2" for="pregunta_n4">Malo</span>
                       </label>
                       <label type="inline-flex items-center">
-                        <input type="radio" class="form-radio" name="accountType" value="1">
-                        <span class="ml-2">Muy malo</span>
+                        <input type="radio" class="form-radio" name="accountType5" id="pregunta_n5" value="1">
+                        <span class="ml-2" for="pregunta_n5">Muy malo</span>
                       </label>
                     </div>
                   </div>
@@ -299,7 +298,90 @@
 <!-- ------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------ -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-mdb-toggle="modal"
+  data-mdb-target="#exampleModal">
+  Launch demo modal
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="mx-0 modal-dialog mx-sm-auto">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h5 class="text-white modal-title" id="exampleModalLabel">Feedback request</h5>
+        <button type="button" class="text-white close" data-mdb-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="text-center">
+          <i class="mb-3 far fa-file-alt fa-4x text-primary"></i>
+          <p>
+            <strong>Your opinion matters</strong>
+          </p>
+          <p>
+            Have some ideas how to improve our product?
+            <strong>Give us your feedback.</strong>
+          </p>
+        </div>
+
+        <hr />
+
+        <form class="px-4" action="">
+          <p class="text-center"><strong>Your rating:</strong></p>
+
+          <div class="mb-2 form-check">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio4Example1" />
+            <label class="form-check-label" for="radio4Example1">
+              Very good
+            </label>
+          </div>
+          <div class="mb-2 form-check">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio4Example2" />
+            <label class="form-check-label" for="radio4Example2">
+              Good
+            </label>
+          </div>
+          <div class="mb-2 form-check">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio4Example3" />
+            <label class="form-check-label" for="radio4Example3">
+              Medicore
+            </label>
+          </div>
+          <div class="mb-2 form-check">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio4Example4" />
+            <label class="form-check-label" for="radio4Example4">
+              Bad
+            </label>
+          </div>
+          <div class="mb-2 form-check">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio4Example5" />
+            <label class="form-check-label" for="radio4Example5">
+              Very bad
+            </label>
+          </div>
+
+          <p class="text-center"><strong>What could we improve?</strong></p>
+
+          <!-- Message input -->
+          <div class="mb-4 form-outline">
+            <textarea class="form-control" id="form4Example4" rows="4"></textarea>
+            <label class="form-label" for="form4Example4">Your feedback</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--*******************************************************************************************-->
       <div>
               <label class="block mt-4 " for="">
                   <span class="text-white form-gray-700">¿Como califica el trato recibido por parte del personal?</span>

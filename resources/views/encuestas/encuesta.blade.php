@@ -14,14 +14,14 @@
   <div class="max-w-6xl px-12 py-20 mx-auto mt-10 mb-24 bg-white bg-red-100 shadow-xl lg:px-24">
     
    
-    <form>
+    <form action="" method="POST">
       <div class="flex flex-col px-8 pt-6 pb-8 mb-4 bg-white shadow-md rounded-3xl">
       <div class="px-3 md:w-full">
             <label class="mb-2 text-xs font-bold tracking-wide text-black uppercase" for="tipo-documento">
               Tipo de documento
             </label>
             <div>
-              <select class="w-full px-4 py-3 pr-8 mb-3 text-sm text-black bg-gray-200 border border-gray-200 rounded sm:text-base" id="tipo-documento">
+              <select class="w-full px-4 py-3 pr-8 mb-3 text-sm text-black uppercase bg-gray-200 border border-gray-200 rounded sm:text-base" id="tipo-documento">
                 <option class="text-xs font-bold text-center sm:text-base" value="0">- - - -  Seleccionar  - - - -</option>  
                 <option class="text-xs font-bold text-center sm:text-base" value="1">Tarjeta de identidad</option>
                 <option class="text-xs font-bold text-center sm:text-base" value="2">Cedula de ciudadania</option>

@@ -25,6 +25,13 @@ Route::get('/', function () {
     return view('encuestas.slider');
 });
 /*Route::get('/', function () {
+    return view('Auth.login');
+    
+});
+Route::get('/', function () {
+    return view('encuestas.modalpregunta');    
+});
+Route::get('/', function () {
     return view('encuestas.preguntas');
     
 });*/
